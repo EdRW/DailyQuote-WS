@@ -1,11 +1,11 @@
-package Service;
+package service;
 
 import javax.jws.WebService;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-@WebService
+@WebService(endpointInterface = "service.QuoteService")
 public class QuoteServiceImpl implements QuoteService {
 
     private List<String> quotes = null;

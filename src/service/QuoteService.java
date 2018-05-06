@@ -1,4 +1,4 @@
-package Service;
+package service;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
